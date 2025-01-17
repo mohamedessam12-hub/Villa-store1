@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "MagicVila_VillaAPi\\MagicVila_VillaAPi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Villa_mvc\\Villa_mvc.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
