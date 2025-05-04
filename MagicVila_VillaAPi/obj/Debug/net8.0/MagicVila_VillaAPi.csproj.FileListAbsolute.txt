@@ -161,3 +161,4 @@ E:\MagicVila\MagicVila_VillaAPi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptograp
 E:\MagicVila\MagicVila_VillaAPi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 E:\MagicVila\MagicVila_VillaAPi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 E:\MagicVila\MagicVila_VillaAPi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+E:\MagicVila\MagicVila_VillaAPi\obj\Debug\net8.0\MagicVila_VillaAPi.sourcelink.json

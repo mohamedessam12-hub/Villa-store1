@@ -4,6 +4,8 @@ using MagicVila_VillaAPi.Model;
 using MagicVila_VillaAPi.Repository;
 using MagicVila_VillaAPi.Repository.IRepository;
 using MagicVila_VillaAPi.Repository.Repository;
+using MagicVila_VillaAPi.Service;
+using MagicVila_VillaAPi.Service.IService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -24,6 +26,9 @@ namespace MagicVila_VillaAPi
             builder.Services.AddScoped<IVillaRepository, VillaRepository>();
             builder.Services.AddScoped<IRepositoryVillanum, RepositoryVillanum>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IVillaService, VillaService>();
+            builder.Services.AddScoped<IVillaNumberService, VillaNumberService>();
+            builder.Services.AddScoped<IUserAuthService, UserAuthService>();
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>().
             AddEntityFrameworkStores<ApplicationdbContext>().AddDefaultTokenProviders();
             builder.Services.AddResponseCaching();
